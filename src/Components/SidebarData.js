@@ -1,6 +1,7 @@
 import React from "react";
 import * as AiIcons from "react-icons/ai";
 import * as LuIcons from "react-icons/lu";
+import * as CgIcons from "react-icons/cg";
 
 export const SideBarData = [
   {
@@ -18,7 +19,7 @@ export const SideBarData = [
   {
     title: "Resume",
     path: "/resume",
-    icon: <AiIcons.AiOutlineDownload />,
+    icon: <CgIcons.CgFileDocument/>,
     cName: "nav-text",
   },
   {
