@@ -1,0 +1,16 @@
+.react-pdf__Page__textContent {
+    display: none;
+}
+
+.react-pdf__Page {
+    background-color: transparent !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.react-pdf__Page__annotations {
+    display: none;
+}
