@@ -16,6 +16,14 @@ function Navbar() {
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
+          <div id="social-media">
+            <Link to="https://www.linkedin.com/in/brian-gomez-8a5a85211/" className="linkedin-logo">
+              <AiIcons.AiFillLinkedin />
+            </Link>
+            <Link to="https://github.com/briandgomez" className="github-logo">
+              <AiIcons.AiFillGithub />
+            </Link>
+          </div>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
