@@ -15,7 +15,7 @@
   display: none;
 }
 
-button {
+#download-button {
   margin-top: 10px;
   display: flex;
   margin-left: auto;

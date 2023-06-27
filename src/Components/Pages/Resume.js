@@ -23,7 +23,7 @@ function Resume() {
 
   return (
     <div className="resume-container">
-      <button onClick={onButtonClick}>
+      <button id="download-button" onClick={onButtonClick}>
         <AiIcons.AiOutlineDownload style={{ margin: "auto" }} />
         <text>Download</text>
       </button>
