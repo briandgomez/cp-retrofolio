@@ -1,0 +1,17 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form div {
+    margin: 15px;
+}
+
+#name, #email, #message {
+    width: 500px;
+}
+
+#message {
+height: 200px;
+}
