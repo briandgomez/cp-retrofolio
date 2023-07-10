@@ -13,10 +13,14 @@
   background: none;
 }
 
+.menu-bars {
+  padding-left: 7px;
+}
+
 .nav-menu {
   background-color: rgb(55, 119, 113);
   width: 250px;
-  height: 45vh;
+  height: 43vh;
   display: flex;
   justify-content: center;
   position: fixed;

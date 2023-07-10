@@ -9,6 +9,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 600px;
+  position: relative;
+  z-index: -1;
 }
 
 .react-pdf__Page__annotations {
