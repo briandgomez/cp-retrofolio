@@ -1,18 +1,19 @@
 import "./Projects.css";
+import * as AiIcons from "react-icons/ai";
+import { Link } from "react-router-dom";
+
 function Projects() {
   const images = [
     {
       src: require("../../Images/YER.jpg"),
-      title: "Y.E.R.",
-      text: "Sample text for YER",
+      title: "Y.E.R. (Your Entertainment Reviews)",
       descripiton:
         "Displays movie and tv-show information based on user search",
       github: "https://github.com/briandgomez/YER",
     },
     {
       src: require("../../Images/Team-Generator.png"),
-      title: "Team",
-      text: "Sample text for Team",
+      title: "Team Generator",
       descripiton:
         "Creates a profile for each team member and displays their important information",
       github: "https://github.com/briandgomez/Team-Profile-Generator",
@@ -20,22 +21,19 @@ function Projects() {
     {
       src: require("../../Images/Social.png"),
       title: "Social API",
-      text: "Sample text for social",
       descripiton: "Demonstrates how a social network application functions",
       github: "https://github.com/briandgomez/Social-API",
     },
     {
       src: require("../../Images/E-Commerce.png"),
-      title: "E-Commerce",
-      text: "Sample text or ecommerce",
+      title: "E-Commerce API",
       descripiton:
         "Demonstrates how the back end of a e-commerce website works",
       github: "https://github.com/briandgomez/E-Commerce",
     },
     {
       src: require("../../Images/Employee.png"),
-      title: "Employee",
-      text: "Sample text employee",
+      title: "Employee Tracker",
       descripiton: "Keeps track of important employee and company information",
       github: "https://github.com/briandgomez/Employee-Tracker",
     },
@@ -59,11 +57,14 @@ function Projects() {
               <h2 class="white">
                 <span>{image.title}</span>
               </h2>
-              <div class="icons">
-                <a href={image.github}>
-                  <i class="ion-social-github"></i>
-                </a>
-              </div>
+              <a className="icons">
+                <Link
+                  to={image.github}
+                  className="github-icon"
+                >
+                  <AiIcons.AiFillGithub />
+                </Link>
+              </a>
             </figcaption>
           </figure>
         ))}
