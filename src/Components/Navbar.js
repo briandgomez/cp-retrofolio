@@ -17,10 +17,13 @@ function Navbar() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <div id="social-media">
-            <Link to="https://www.linkedin.com/in/brian-gomez-8a5a85211/" className="linkedin-logo">
+            <Link
+              to="https://www.linkedin.com/in/brian-gomez-8a5a85211/"
+              className="linkedin-icon"
+            >
               <AiIcons.AiFillLinkedin />
             </Link>
-            <Link to="https://github.com/briandgomez" className="github-logo">
+            <Link to="https://github.com/briandgomez" className="github-icon">
               <AiIcons.AiFillGithub />
             </Link>
           </div>

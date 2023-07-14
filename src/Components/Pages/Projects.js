@@ -40,10 +40,10 @@ function Projects() {
   ];
 
   return (
-    <div class="container">
-      <div id="projects" class="row">
+    <div className="container">
+      <div id="projects" className="row">
         {images.map((image) => (
-          <figure class="snip0058">
+          <figure className="snip0058">
             <img
               key={image}
               src={image.src}
@@ -54,7 +54,7 @@ function Projects() {
               <p>
                 <span>{image.descripiton}</span>
               </p>
-              <h2 class="white">
+              <h2 className="white">
                 <span>{image.title}</span>
               </h2>
               <a className="icons">
