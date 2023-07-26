@@ -1,7 +1,9 @@
 #contact-form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 #contact-form div {
@@ -13,5 +15,5 @@
 }
 
 #message {
-height: 200px;
+    height: 250px;
 }

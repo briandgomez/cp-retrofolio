@@ -28,7 +28,7 @@ const Contact = () => {
     <form id="contact-form" onSubmit={handleSubmit}>
       <div >
         <label htmlFor="name">Name:</label>
-        <input className="form-control" type="text" id="name" required />
+        <input className="form-control" type="text" id="name" placeholder="Full Name" required />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
@@ -38,7 +38,7 @@ const Contact = () => {
           id="email"
           required
           aria-describedby="emailHelp"
-          placeholder="Enter email"
+          placeholder="Your Email Address"
         />
       </div>
       <div>
