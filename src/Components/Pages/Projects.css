@@ -78,7 +78,8 @@ figure.snip0058 figcaption .icons {
   bottom: 0;
 }
 
-figure.snip0058 figcaption .icons .github-icon {
+figure.snip0058 figcaption .icons .github-icon, 
+figure.snip0058 figcaption .icons .link-icon {
   font-size: 23px;
   padding: 4px;
   color: #ffffff;
@@ -88,21 +89,6 @@ figure.snip0058 figcaption .icons .github-icon {
   opacity: 0;
   -webkit-transition: bottom 0.35s, opacity 0.35s;
   transition: bottom 0.35s, opacity 0.35s;
-}
-
-figure.snip0058 figcaption .icons a:first-child .github-icon {
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-}
-
-figure.snip0058 figcaption .icons a:nth-child(2) .github-icon {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-
-figure.snip0058 figcaption .icons a:nth-child(3) .github-icon {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
 }
 
 figure.snip0058:after {
@@ -141,11 +127,15 @@ figure.snip0058.hover figcaption {
   bottom: 115px;
 }
 
-figure.snip0058:hover figcaption .icons .github-icon,
-figure.snip0058.hover figcaption .icons .github-icon {
+figure.snip0058:hover figcaption .icons .github-icon ,
+figure.snip0058.hover figcaption .icons .github-icon,  
+figure.snip0058:hover figcaption .icons .link-icon,
+figure.snip0058.hover figcaption .icons .link-icon
+{
   opacity: 1;
   bottom: -41px;
 }
+
 
 figure.snip0058:hover figcaption::before,
 figure.snip0058.hover figcaption::before {
