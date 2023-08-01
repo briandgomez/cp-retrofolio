@@ -1,19 +1,30 @@
 #contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 #contact-form div {
-    margin: 15px;
+  margin: 15px;
 }
 
-#name, #email, #message {
-    width: 500px;
+#name,
+#email,
+#message {
+  width: 500px;
 }
 
 #message {
-    height: 250px;
+  height: 250px;
+}
+
+#submit-btn:hover {
+  background-color: #05d9e8;
+}
+
+#submit-btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

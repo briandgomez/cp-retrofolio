@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { useState } from "react";
-import "./Contact.css"
+import "./Contact.css";
 
 const Contact = () => {
   const [status, setStatus] = useState("Submit");
@@ -26,9 +26,15 @@ const Contact = () => {
   };
   return (
     <form id="contact-form" onSubmit={handleSubmit}>
-      <div >
+      <div>
         <label htmlFor="name">Name:</label>
-        <input className="form-control" type="text" id="name" placeholder="Full Name" required />
+        <input
+          className="form-control"
+          type="text"
+          id="name"
+          placeholder="Full Name"
+          required
+        />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
@@ -45,7 +51,19 @@ const Contact = () => {
         <label htmlFor="message">Message:</label>
         <textarea className="form-control" id="message" required />
       </div>
-      <button className="btn btn-primary" type="submit">{status}</button>
+      <button
+      id="submit-btn"
+        style={{
+          backgroundColor: "None",
+          margin: "6px",
+          borderColor: "#05d9e8",
+          color: "white",
+        }}
+        className="btn"
+        type="submit"
+      >
+        {status}
+      </button>
     </form>
   );
 };
