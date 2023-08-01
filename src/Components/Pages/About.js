@@ -6,13 +6,13 @@ function About() {
   const glitch = useGlitch();
   return (
     <div>
-      <div>
-        <div>
-          {" "}
-          <span id="glitch-text" ref={glitch.ref}>
-            Welcome
-          </span>{" "}
-        </div>
+      <div id="about-title">
+        {" "}
+        <span id="glitch-text" ref={glitch.ref}>
+          Welcome
+        </span>{" "}
+      </div>
+      <div id="about-summary">
         <TypeAnimation
           wrapper="span"
           style={{
@@ -23,7 +23,7 @@ function About() {
           }}
           speed={50}
           sequence={[
-            `Hi,\nMy name is Brian Gomez. I am a Application Developer who enjoys working on challenging projects. I have experience in front and back end development. In my free time I enjoy staying active, watching films/tv-shows/anime, or exploring the world`,
+            `My name is Brian Gomez. I am a Application Developer who enjoys working on challenging projects. I have experience in front and back end development. In my free time I enjoy staying active, watching films/tv-shows/anime, or exploring the world`,
             1000,
           ]}
           repeat={Infinity}

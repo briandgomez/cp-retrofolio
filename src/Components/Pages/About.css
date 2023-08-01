@@ -1,4 +1,24 @@
-#glitch-text {
-  font-size: 100px;
+@font-face {
+  font-family: Monoton;
+  src: url(../../Monoton-Regular.ttf);
 }
 
+#glitch-text {
+  color: #05d9e8;
+  font-size: 130px;
+  text-shadow:  4px 5px #d1f7ff;
+  font-family: Monoton;
+}
+
+#about-title {
+  text-align: center;
+}
+
+#about-summary {
+  margin: auto;
+  width: 60%;
+  color: #d1f7ff ;
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+}
