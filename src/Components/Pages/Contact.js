@@ -52,9 +52,8 @@ const Contact = () => {
         <textarea className="form-control" id="message" required />
       </div>
       <button
-      id="submit-btn"
+        id="submit-button"
         style={{
-          backgroundColor: "None",
           margin: "6px",
           borderColor: "#05d9e8",
           color: "white",

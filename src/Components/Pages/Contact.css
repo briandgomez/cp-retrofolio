@@ -20,11 +20,11 @@
   height: 250px;
 }
 
-#submit-btn:hover {
+#submit-button:hover {
   background-color: #05d9e8;
 }
 
-#submit-btn:active {
+#submit-button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
