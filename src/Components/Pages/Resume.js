@@ -23,8 +23,16 @@ function Resume() {
 
   return (
     <div>
-      <button id="download-button" onClick={onButtonClick}>
-        <AiIcons.AiOutlineDownload style={{ margin: "auto" }} />
+      <button
+        id="download-button"
+        type="submit"
+        className="btn"
+        onClick={onButtonClick}
+      >
+        <AiIcons.AiOutlineDownload
+          id="download-icon"
+          style={{ margin: "auto" }}
+        />
         <text>Download</text>
       </button>
       <Document file={BGResume}>

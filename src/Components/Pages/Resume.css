@@ -18,19 +18,30 @@
 }
 
 #download-button {
-  margin-top: 10px;
+  margin: 20px 0px 20px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 110px;
-  height: 25px;
-  border-radius: 3px;
+  border-radius: px;
+  color: white;
+  border-color: #05d9e8;
 }
 
 button text {
   margin: auto;
 }
 
-button:hover {
+#download-button:hover {
   cursor: pointer;
+  background-color: #05d9e8;
+}
+
+#download-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#download-icon {
+  font-size: 15px;
 }
