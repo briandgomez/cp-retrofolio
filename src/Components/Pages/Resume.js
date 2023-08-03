@@ -23,6 +23,7 @@ function Resume() {
 
   return (
     <div>
+      <h2 id="resume-h2">Resume</h2>
       <button
         id="download-button"
         type="submit"

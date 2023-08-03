@@ -146,3 +146,12 @@ figure.snip0058:hover:after,
 figure.snip0058.hover:after {
   bottom: 0;
 }
+
+#projects-h2 {
+  display: flex;
+  justify-content: center;
+  color: #05d9e8;
+  font-size: 60px;
+  font-family: Monoton;
+  padding: 30px 0px;
+}

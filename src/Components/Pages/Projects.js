@@ -47,6 +47,7 @@ function Projects() {
   return (
     <div className="container">
       <div id="projects" className="row">
+      <h2 id="projects-h2">Projects</h2>
         {images.map((image) => (
           <figure className="snip0058">
             <img
