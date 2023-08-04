@@ -72,6 +72,7 @@ const App = () => {
           }}
         />
         <Routes>
+          <Route path="*" Component={About}/>
           <Route path="/about" Component={About} />
           <Route path="/projects" Component={Projects} />
           <Route path="/resume" Component={Resume} />
