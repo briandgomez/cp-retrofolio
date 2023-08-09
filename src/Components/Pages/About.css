@@ -25,9 +25,9 @@
   min-height: 40vh;
 }
 
-.linkedin-icon,
-.github-icon,
-.email-icon {
+.linkedin-link,
+.github-link,
+.email-link {
   color: white;
   padding: 5px;
 }
@@ -39,9 +39,9 @@
   justify-content: center;
 }
 
-.linkedin-icon,
-.github-icon,
-.email-icon {
+.linkedin-link,
+.github-link,
+.email-link {
   margin: 0px 25px;
   position: relative;
   display: block;
@@ -56,9 +56,9 @@
   transition: 0.5s;
 }
 
-.linkedin-icon::before,
-.github-icon::before,
-.email-icon::before {
+.linkedin-link::before,
+.github-link::before,
+.email-link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -72,21 +72,21 @@
   z-index: -1;
 }
 
-.linkedin-icon::before,
-.github-icon::before,
-.email-icon::before {
+.linkedin-link::before,
+.github-link::before,
+.email-link::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #05d9e8;
 }
 
-.linkedin-icon:hover,
-.github-icon:hover,
-.email-icon:hover {
+.linkedin-link:hover,
+.github-link:hover,
+.email-link:hover {
   color: #d1f7ff;
   box-shadow: 0 0 5px #d1f7ff;
   text-shadow: 0 0 5px #d1f7ff;
 }
 
 svg {
-  vertical-align: text-top !important;
+  vertical-align: baseline !important;
 }

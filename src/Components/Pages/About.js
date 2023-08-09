@@ -17,14 +17,14 @@ function About() {
       <div id="social-media">
         <Link
           to="https://www.linkedin.com/in/brian-gomez-8a5a85211/"
-          className="linkedin-icon"
+          className="linkedin-link"
         >
           <AiIcons.AiFillLinkedin />
         </Link>
-        <Link to="https://github.com/briandgomez" className="github-icon">
+        <Link to="https://github.com/briandgomez" className="github-link">
           <AiIcons.AiFillGithub />
         </Link>
-        <a href="mailto:briandgomez98@gmail.com" className="email-icon">
+        <a href="mailto:briandgomez98@gmail.com" className="email-link">
           <AiIcons.AiFillMail />
         </a>
       </div>
