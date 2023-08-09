@@ -7,13 +7,13 @@
   justify-content: space-between;
 }
 
-.menu-bars,
-#social-media {
+.menu-bars {
   font-size: 2rem;
   background: none;
 }
 
 .menu-bars {
+  padding-top: 12px;
   padding-left: 7px;
 }
 
@@ -57,13 +57,4 @@
 .nav-menu-items {
   width: 100%;
   font-size: 25px;
-}
-
-span {
-  margin-left: 16px;
-}
-
-.linkedin-icon,
-.github-icon {
-  padding: 5px;
 }
