@@ -8,11 +8,12 @@
   font-size: 160px;
   text-shadow: 4px 5px #d1f7ff;
   font-family: Cyberpunk;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 #about-title {
   text-align: center;
+  padding-bottom: 35px;
 }
 
 #about-summary {
@@ -22,4 +23,70 @@
   display: flex;
   align-items: center;
   min-height: 40vh;
+}
+
+.linkedin-icon,
+.github-icon,
+.email-icon {
+  color: white;
+  padding: 5px;
+}
+
+#social-media {
+  font-size: 2.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin-icon,
+.github-icon,
+.email-icon {
+  margin: 0px 25px;
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 63px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: 0.5s;
+}
+
+.linkedin-icon::before,
+.github-icon::before,
+.email-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #05d9e8;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.linkedin-icon::before,
+.github-icon::before,
+.email-icon::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #05d9e8;
+}
+
+.linkedin-icon:hover,
+.github-icon:hover,
+.email-icon:hover {
+  color: #d1f7ff;
+  box-shadow: 0 0 5px #d1f7ff;
+  text-shadow: 0 0 5px #d1f7ff;
+}
+
+svg {
+  vertical-align: text-top !important;
 }

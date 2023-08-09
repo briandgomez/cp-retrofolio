@@ -1,4 +1,6 @@
 import { useGlitch } from "react-powerglitch";
+import * as AiIcons from "react-icons/ai";
+import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import "./About.css";
 
@@ -11,6 +13,20 @@ function About() {
         <span id="glitch-text" ref={glitch.ref}>
           Welcome
         </span>{" "}
+      </div>
+      <div id="social-media">
+        <Link
+          to="https://www.linkedin.com/in/brian-gomez-8a5a85211/"
+          className="linkedin-icon"
+        >
+          <AiIcons.AiFillLinkedin />
+        </Link>
+        <Link to="https://github.com/briandgomez" className="github-icon">
+          <AiIcons.AiFillGithub />
+        </Link>
+        <a href="mailto:briandgomez98@gmail.com" className="email-icon">
+          <AiIcons.AiFillMail />
+        </a>
       </div>
       <div id="about-summary">
         <TypeAnimation
