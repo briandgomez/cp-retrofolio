@@ -1,8 +1,8 @@
 {
-  "name": "bg-portfolio-3",
+  "name": "cp-retrofolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://briandgomez.github.io/bg-portfolio-3.0",
+  "homepage": "https://briandgomez.github.io/cp-retrofolio",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@testing-library/jest-dom": "^5.16.5",
