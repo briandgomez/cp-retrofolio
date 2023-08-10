@@ -3,10 +3,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import BGResume from "../../Brian-Gomez-Resume.pdf";
 import * as AiIcons from "react-icons/ai";
 import "./Resume.css";
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  "pdfjs-dist/build/pdf.worker.min.js",
-  import.meta.url
-).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 function Resume() {
   const onButtonClick = () => {
