@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Monoton;
+  src: url(../../Monoton-Regular.ttf);
+}
+
 #projects {
   margin: auto;
   width: 90%;
