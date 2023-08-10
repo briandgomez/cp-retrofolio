@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/bg-portfolio-3.0/static/css/main.39e756f3.css",
-    "main.js": "/bg-portfolio-3.0/static/js/main.ea766ca5.js",
+    "main.css": "/bg-portfolio-3.0/static/css/main.a578f14f.css",
+    "main.js": "/bg-portfolio-3.0/static/js/main.7d1b256a.js",
     "static/js/787.fcde0697.chunk.js": "/bg-portfolio-3.0/static/js/787.fcde0697.chunk.js",
     "static/media/YER.jpg": "/bg-portfolio-3.0/static/media/YER.4946a5f8729028697074.jpg",
-    "static/media/pdf.worker.min.js": "/bg-portfolio-3.0/static/media/pdf.worker.min.4e71d89bb02078b1c0e6.js",
     "static/media/Brian-Gomez-Resume.pdf": "/bg-portfolio-3.0/static/media/Brian-Gomez-Resume.27fc155500d374b046af.pdf",
     "static/media/Social.png": "/bg-portfolio-3.0/static/media/Social.25d1499d7463dd6b6775.png",
     "static/media/E-Commerce.png": "/bg-portfolio-3.0/static/media/E-Commerce.7e83afe7bd96cf11eb79.png",
@@ -13,12 +12,12 @@
     "static/media/Employee.png": "/bg-portfolio-3.0/static/media/Employee.c87e116539a09c50028b.png",
     "static/media/CyberwayRiders-lg97d.ttf": "/bg-portfolio-3.0/static/media/CyberwayRiders-lg97d.a5eed877f3e56aea68a0.ttf",
     "index.html": "/bg-portfolio-3.0/index.html",
-    "main.39e756f3.css.map": "/bg-portfolio-3.0/static/css/main.39e756f3.css.map",
-    "main.ea766ca5.js.map": "/bg-portfolio-3.0/static/js/main.ea766ca5.js.map",
+    "main.a578f14f.css.map": "/bg-portfolio-3.0/static/css/main.a578f14f.css.map",
+    "main.7d1b256a.js.map": "/bg-portfolio-3.0/static/js/main.7d1b256a.js.map",
     "787.fcde0697.chunk.js.map": "/bg-portfolio-3.0/static/js/787.fcde0697.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39e756f3.css",
-    "static/js/main.ea766ca5.js"
+    "static/css/main.a578f14f.css",
+    "static/js/main.7d1b256a.js"
   ]
 }
