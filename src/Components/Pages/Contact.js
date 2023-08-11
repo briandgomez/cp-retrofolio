@@ -4,6 +4,7 @@ import { useState } from "react";
 const Contact = () => {
   return (
     <form name="contact" id="contact-form" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact"/>
       <h2 id="contact-me-h2">Contact Me</h2>
       <div>
         <label htmlFor="name">Name:</label>
