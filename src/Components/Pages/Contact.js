@@ -10,7 +10,7 @@ const Contact = () => {
         <label htmlFor="name">Name:</label>
         <input
           className="form-control"
-          name="name-input"
+          name="name"
           type="text"
           id="name"
           placeholder="Full Name"
