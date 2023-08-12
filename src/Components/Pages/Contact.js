@@ -21,7 +21,7 @@ const Contact = () => {
         <label htmlFor="email">Email:</label>
         <input
           type="email"
-          name="email-input"
+          name="email"
           className="form-control"
           id="email"
           required
