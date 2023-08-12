@@ -30,6 +30,7 @@ const Contact = () => {
         />
       </div>
       <div>
+        <input type="hidden" name="Message" />
         <label htmlFor="message">Message:</label>
         <textarea className="form-control" id="message" required />
       </div>
