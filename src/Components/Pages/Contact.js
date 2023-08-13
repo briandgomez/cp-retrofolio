@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
-import { useState } from "react";
+import "./Contact.css";
 
 const Contact = () => {
   return (
