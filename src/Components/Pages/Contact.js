@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <form name="contact" method="POST" id="contact-form" data-netlify="true" action="../src/Components/Pages/Succcess.js">
+    <form name="contact" method="POST" id="contact-form" data-netlify="true" action="/src/Components/Pages/Succcess.js">
       <input type="hidden" name="form-name" value="contact" />
       <h2 id="contact-me-h2">Contact Me</h2>
       <div>
