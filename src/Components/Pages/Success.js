@@ -1,5 +1,5 @@
 import "./Success.css";
-const Succcess = () => {
+const Success = () => {
   return (
     <div class="content">
       <link
@@ -21,4 +21,4 @@ const Succcess = () => {
   );
 };
 
-export default Succcess;
+export default Success;
