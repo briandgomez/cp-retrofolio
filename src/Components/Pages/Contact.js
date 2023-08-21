@@ -1,9 +1,22 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./Contact.css";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
+  const navigate = useNavigate();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    navigate("/success");
+  };
   return (
-    <form name="contact" method="POST" id="contact-form" data-netlify="true" action="/src/Components/Pages/Succcess.js">
+    <form
+      name="contact"
+      method="POST"
+      id="contact-form"
+      data-netlify="true"
+      action="/src/Components/Pages/Succcess.js"
+      onSubmit={handleSubmit}
+    >
       <input type="hidden" name="form-name" value="contact" />
       <h2 id="contact-me-h2">Contact Me</h2>
       <div>
@@ -31,7 +44,12 @@ const Contact = () => {
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea className="form-control" id="message" required name="Message"></textarea>
+        <textarea
+          className="form-control"
+          id="message"
+          required
+          name="Message"
+        ></textarea>
       </div>
       <button
         id="submit-button"
