@@ -14,7 +14,7 @@ const Contact = () => {
       method="POST"
       id="contact-form"
       data-netlify="true"
-      action="/src/Components/Pages/Succcess.js"
+      action="/src/Components/Pages/Success.js"
       onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
