@@ -26,8 +26,7 @@
 }
 
 .linkedin-link,
-.github-link,
-.email-link {
+.github-link {
   color: white;
   padding: 5px;
 }
@@ -38,8 +37,7 @@
 }
 
 .linkedin-link,
-.github-link,
-.email-link {
+.github-link {
   margin: 0px 25px;
   position: relative;
   display: block;
@@ -55,8 +53,7 @@
 }
 
 .linkedin-link::before,
-.github-link::before,
-.email-link::before {
+.github-link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -71,15 +68,13 @@
 }
 
 .linkedin-link::before,
-.github-link::before,
-.email-link::before {
+.github-link::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #05d9e8;
 }
 
 .linkedin-link:hover,
-.github-link:hover,
-.email-link:hover {
+.github-link:hover {
   color: #d1f7ff;
   box-shadow: 0 0 5px #d1f7ff;
   text-shadow: 0 0 5px #d1f7ff;

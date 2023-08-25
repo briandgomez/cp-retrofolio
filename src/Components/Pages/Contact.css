@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Monoton;
+  src: url(../../Monoton-Regular.ttf);
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#contact-form div {
+  margin: 15px;
+}
+
+#contact-me-h2 {
+  color: #05d9e8;
+  font-size: 60px;
+  font-family: Monoton;
+  padding-bottom: 55px;
+}
+
+#name,
+#email,
+#message {
+  width: 500px;
+}
+
+#message {
+  height: 250px;
+}
+
+#submit-button:hover {
+  background-color: #05d9e8;
+}
+
+#submit-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

@@ -21,5 +21,11 @@ export const SideBarData = [
     path: "/resume",
     icon: <CgIcons.CgFileDocument/>,
     cName: "nav-text",
-  }
+  },
+  {
+    title: "Contact",
+    path: "/contact",
+    icon: <AiIcons.AiFillMail />,
+    cName: "nav-text",
+  },
 ];

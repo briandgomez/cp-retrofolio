@@ -24,9 +24,6 @@ function About() {
         <Link to="https://github.com/briandgomez" className="github-link">
           <AiIcons.AiFillGithub />
         </Link>
-        <a href="mailto:briandgomez98@gmail.com" className="email-link">
-          <AiIcons.AiFillMail />
-        </a>
       </div>
       <div id="about-summary">
         <TypeAnimation
