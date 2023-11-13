@@ -9,3 +9,6 @@ React portfolio deployed using [Netlify](https://www.netlify.com/) including pro
 * JavaScript
 * CSS
 * Netlify
+
+## Deployed App
+https://cp-retrofolio.netlify.app/
