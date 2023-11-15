@@ -83,3 +83,19 @@
 svg {
   vertical-align: baseline !important;
 }
+
+@media screen and (max-width: 575px) {
+  #glitch-text {
+    font-size: 68px;
+  }
+
+  #about-summary {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #about-summary {
+    font-size: 9px;
+  }
+}

@@ -55,7 +55,39 @@
 }
 
 .nav-menu-items {
-  padding: 33px;
   width: 100%;
   font-size: 25px;
+}
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    background-color: transparent;
+  }
+
+  .nav-menu-items {
+    display: flex;
+    margin: 0px 0px 0px -15px;
+    justify-content: center;
+  }
+
+  .nav-menu.active {
+    display: inline-table;
+    position: relative;
+    height: 0vh;
+    margin: 0px 45px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+  .nav-menu-items {
+    display: flex;
+    margin: 0px 0px 0px -15px;
+  }
+
+  .nav-menu.active {
+    display: inline-table;
+    position: relative;
+    height: 0vh;
+    margin: 15px 170px 0px 170px;
+  }
 }
