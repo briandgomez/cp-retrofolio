@@ -75,6 +75,9 @@
     position: relative;
     height: 0vh;
     margin: 0px 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0px 0px;
   }
 }
 
@@ -88,5 +91,8 @@
     display: inline-table;
     position: relative;
     height: 0vh;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0px 0px;
   }
 }
