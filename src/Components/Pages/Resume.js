@@ -34,7 +34,7 @@ function Resume() {
         <text>Download</text>
       </button>
       <Document file={BGResume}>
-        <Page scale={1} pageNumber={1} />
+        <Page scale={1.3} pageNumber={1} />
       </Document>
     </div>
   );
